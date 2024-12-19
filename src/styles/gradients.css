@@ -1,0 +1,17 @@
+@layer utilities {
+  .modern-gradient {
+    @apply bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500;
+  }
+  
+  .glass-effect {
+    @apply bg-white/5 backdrop-blur-lg;
+  }
+  
+  .hover-glow {
+    @apply transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/25;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-pink-400;
+  }
+}
